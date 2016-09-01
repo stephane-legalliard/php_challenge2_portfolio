@@ -16,7 +16,7 @@ A portfolio is to display to recruiters your skills. So show your best!
 
 * Link your **GitHub** account https://github.com/settings/profile (take the time to fill out your profile information)
 * Link your **LinkedIn** account
-* Link your **Stack Overflow Carrers** account (if you do not have one, create it on http://careers.stackoverflow.com/)
+* Link your **Stack Overflow** account (if you do not have one, create it on https://stackoverflow.com/users/signup?ssrc=head&returnurl=http%3a%2f%2fstackoverflow.com%2f)
 
 ## Hosting
 
