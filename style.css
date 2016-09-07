@@ -1,0 +1,38 @@
+body {
+	min-width: 100%;
+	max-width: 100%;
+}
+
+h1, h3, h5 {
+	color: #FFFFFF;
+}
+
+/* navbar*/
+
+.container-fluid {
+	height: 150px;
+}
+
+img {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30vh;
+    border-radius: 2.5vh;
+    margin: 4vh 0;
+}
+
+/* footer */
+
+#footer {
+	background-color: black;
+	text-align: center;
+	color: #FFFFFF;
+	height: 80px;
+	margin-top: 80px;
+	padding-top: 20px;
+	font-size: 18px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
