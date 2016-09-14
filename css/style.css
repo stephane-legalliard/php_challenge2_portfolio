@@ -1,34 +1,87 @@
+/* CSS de la page Web */
+
 body {
-	min-width: 100%;
-	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "open sans", "Merriweather";
 }
 
-h1, h3, h5 {
-	color: #FFFFFF;
+
+/* CSS de la barre de navigation */
+
+#navbar {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-/* navbar*/
-
-.container-fluid {
-	height: 150px;
+#navbar a {
+	font-size: 15px;
+	color: #F05F40;
 }
+
+#navbar ul li a {
+	color: #F05F40;
+	font-size: 13px;
+}
+
+#navbar ul li a:hover {
+	color:black;
+}
+
+
+/* CSS dela barre de separation */
+
+#separation {
+	height: 50px;
+}
+
+
+/* CSS du corps */
+
+#container-fluid {
+	height: 800px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#presentation {
+	height: 200px;
+	background-color: yellow;
+	width: 100%;
+}
+
+#projet {
+	height: 200px;
+	background-color: red;
+	width: 100%;
+}
+
+#competences {
+	height: 200px;
+	background-color: yellow;
+	width: 100%;
+}
+
+#contact {
+	height: 200px;
+	background-color: red;
+	width: 100%;
+}
+
 
 
 
 /* footer */
 
-#footer {
-	background-color: black;
+footer {
+	background-color: white;
 	text-align: center;
-	color: #FFFFFF;
-	height: 80px;
-	margin-top: 80px;
+	color: #F05F40;
+	height: 50px;
 	padding-top: 20px;
-	font-size: 18px;
 }
 
-#footer:hover {
-	overflow: hidden;
-    opacity: 1;
-    color: #24890D;
-}

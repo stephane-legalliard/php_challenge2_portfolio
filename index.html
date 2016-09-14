@@ -18,57 +18,65 @@
 	
 	
 <body>
-    <div class="container">
-        <!--   header  -->
-        <div id="header" class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-               
-                 <nav class="navbar navbar-inverse navbar-fixed-top">
-                     <div class="container-fluid">
-                         <div class="navbar-header">
-                             <a class="navbar-brand"> 
-                             	<h1>CV</h1> <br/>
-                                <h3>Stéphane Le Galliard</h3>
-                             </a>
-                         </div>
-                         <ul class="nav navbar-nav">
-                             <li class="active">
-                             	<a href="#">Accueil</a></li>
-                             	<li><a href="#Portfolio">Portfolio</a></li>
-                             	<li><a href="#">Compétences</a></li>
-                             	<li><a href="#">Contact</a></li>
-                         </ul>
-                     </div>
-                </nav>
-            </div>
-        </div>
-        
-        <div class="separation"></div>
 
-        <section class="container-fluid" id="Portfolio">
-        
-            <div class="col-md-12 col-sm-12 col-xs-12 text-center" id="projet1" alt="projet1">
-                <a href="#">
-                            
-                    <img src="img\img1.png" />
-                </a>
-                        <p class="description">Le projet 1<br> (langages utilisés : HTML & CSS)</p>
-                    </div>
+    <!-- barre de navigation -->
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+     			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      			</button>
+      			
+      			<a class="navbar-brand" href="#"><strong>Le Portfolio de Stéphane Le Galliard</strong></a>
+    		</div>
+    
+    		<div class="collapse navbar-collapse" id="myNavbar">
+    			<ul class="nav navbar-nav navbar-right">
+      				<li><a href="#"><strong>Accueil</strong></a></li>
+      				<li><a href="#"><strong>Projets</strong></a></li>
+      				<li><a href="#"><strong>Compétences</strong></a></li>
+      				<li><a href="#"><strong>Contact</strong></a></li>
+    			</ul>
+  			</div>
+  		</div>
+	</nav>
+
+	<div id="separation"></div>
+
+    <!-- Portfolio -->   
+    <div id="container-fluid col-md-12 col-sm-12 col-xs-12">
+    	<div id="row">
+        	<div id="presentation">
+        	</div>
+        </div>
+
+        <div id="row">
+        	<div id="projet">
+            </div>    
+        </div>
                     
-                </div>
-            </div>
-            
-		</section>
-
-        <!--  footer  -->
-        <div id="footer" class="row">
-            <div  class="col-md-12 col-sm-12 col-xs-12">
-                <h5>Stéphane Le Galliard - Copyright © 2016 </h5>
-            </div>
-                     
+        <div id="row">
+        	<div id="competences">
+        	</div>
         </div>
-       
+
+        <div id="row">
+        	<div id="contact">
+        	</div>
+        </div>
     </div>
+
+    <!--  footer  -->
+    <footer id="container-fluid col-md-12 col-sm-12 col-xs-12">
+        <div id="row">
+            <strong>Stéphane Le Galliard - Copyright © 2016 </strong>
+        </div>        
+    </footer>
+       
+    
     
     
 </body>    
