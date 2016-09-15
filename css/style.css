@@ -4,31 +4,35 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: 650px;
 	font-family: "open sans";
+	background-image: url(http://localhost/php_challenge2_portfolio/img/dev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
 /* CSS de la barre de navigation */
 
 #navbar {
-	background-color: white;
+	background-color: #CAC6C5;
 	margin-left: auto;
 	margin-right: auto;
+	padding-right: 15px;
 }
 
 #navbar a {
-	font-size: 15px;
-	color: #F05F40;
+	font-size: 20px;
+	color: black;
 }
 
 #navbar ul li a {
-	color: #F05F40;
-	font-size: 13px;
+	color: black;
+	font-size: 20px;
 }
 
 #navbar ul li a:hover {
-	color:black;
+	color: #01663E;
 }
 
 
@@ -41,36 +45,14 @@ body {
 
 /* CSS du corps */
 
+
 #container-fluid {
-	height: 800px;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-
-#presentation {
-	height: 200px;
+	/*height: 650px;*/
 	background-color: ;
 	width: 100%;
 }
 
-#projet {
-	height: 200px;
-	background-color: ;
-	width: 100%;
-}
 
-#competences {
-	height: 200px;
-	background-color: ;
-	width: 100%;
-}
-
-#contact {
-	height: 200px;
-	background-color: ;
-	width: 100%;
-}
 
 
 
@@ -78,10 +60,13 @@ body {
 /* footer */
 
 footer {
-	background-color: white;
+	background-color: #CAC6C5;
 	text-align: center;
-	color: #F05F40;
+	color: black;
 	height: 50px;
-	padding-top: 20px;
+	padding-top: 15px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
