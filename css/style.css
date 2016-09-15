@@ -57,17 +57,24 @@ body #projets {
 	background-image: ;
 }
 
-#projets h3 {
+#projets h4 {
+	padding-top: 10px;
 	text-decoration: underline;
 }
 
 #projet1 img {
-	width: 300px;
-	height: 500px;
+	padding-top: 30px;
+	width: 350px;
+	height: 550px;
 }
 
-#presentation h5 {
+#presentation {
+	background-color: white!important;
+}
+
+#presentation h4 {
 	color: black;
+	padding-top: 10px;
 }
 
 p {
